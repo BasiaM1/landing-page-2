@@ -1,8 +1,14 @@
+/* Variables */
+
+$color-main: #6c757d;
+$font: "Roboto Condensed",
+sans-serif;
+
 /*Global*/
 
 body {
-  color: #6c757d;
-  font-family: "Roboto Condensed", sans-serif;
+  color: $color-main;
+  font-family: $font;
 }
 
 /* Slider */
@@ -33,10 +39,6 @@ body {
 }
 
 /* Products */
-
-.products {
-  height: 100vh;
-}
 
 .card img {
   width: 100%;
